@@ -1,12 +1,38 @@
-# React + Vite
+# Weather App 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive weather application built with React and Vite. It allows users to search for current weather information and a 5-day forecast by city name or by using their current location. The UI supports temperature display in both Celsius and Fahrenheit.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 Search weather by city
+- 📍 Use current location
+- 🌡️ Switch between Celsius and Fahrenheit
+- 📅 5-day weather forecast
+- 📱 Responsive design for mobile and desktop
 
-## Expanding the ESLint configuration
+## 📌 User Stories
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- As a user, I want to search for the weather in any city so that I can plan my day.
+- As a user, I want to use my current location to see local weather without typing.
+- As a user, I want to view the forecast for the next 5 days to be prepared.
+- As a user, I want to toggle between Celsius and Fahrenheit depending on my preference.
+- As a mobile user, I want the interface to be responsive and accessible on my phone.
+- As a desktop user, I want the layout to be wide and centered for a better experience.
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- OpenWeatherMap API
+
+## 📄 Deployment
+
+The app is deployed using **GitHub Pages**:  
+👉 [Check it out here](https://taniql.github.io/Weather-App/)
+
+To deploy it yourself:
+
+1. Make sure `vite.config.js` has:
+   ```js
+   base: '/Weather-App/',

@@ -4,6 +4,7 @@ import SearchBar from './components/SearchBar';
 import WeatherCard from './components/WeatherCard';
 import ForecastList from './components/ForecastList';
 import { FaLocationArrow } from "react-icons/fa";
+import Footer from "./components/Footer";
 
 function App() {
   const [weather, setWeather] = useState(null);
@@ -170,6 +171,7 @@ function App() {
           )}
         </>
       )}
+      <Footer/>
     </div>
   </div>
   
